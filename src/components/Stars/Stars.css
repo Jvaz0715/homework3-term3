@@ -1,0 +1,22 @@
+.stars-container {
+   /* border: 3px solid red; */
+   display: flex;
+   justify-content: center;
+}
+.stars-container ul {
+   display: flex;
+   /* border: 3px solid green; */
+   flex-wrap: wrap;
+   width: 400px;
+}
+
+.stars-container ul > li {
+   list-style: none;
+}
+
+.stars {
+   height: 40px;
+   width: 40px;
+   border: 2px solid gold;
+   border-radius: 5px;
+}
