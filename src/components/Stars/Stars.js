@@ -15,6 +15,7 @@ export class Stars extends Component {
                   )
                })}
             </ul>
+            <button onClick={this.props.clearAllOnClick}>Clear All</button>
          </div>
       )
    }

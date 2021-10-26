@@ -1,13 +1,17 @@
 .stars-container {
    /* border: 3px solid red; */
    display: flex;
+   flex-direction: column;
+   align-items: center;
    justify-content: center;
 }
 .stars-container ul {
    display: flex;
    /* border: 3px solid green; */
    flex-wrap: wrap;
-   width: 400px;
+   /* align-items: center;
+   justify-content: center; */
+   width: 440px;
 }
 
 .stars-container ul > li {
@@ -17,6 +21,20 @@
 .stars {
    height: 40px;
    width: 40px;
-   border: 2px solid gold;
+   border: 1px solid gold;
    border-radius: 5px;
+}
+
+.stars-container button {
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   box-shadow: 1px 1px 1px gray;
+   background-color: lightsteelblue;
+}
+
+.stars-container button:hover {
+   background-color: gray;
 }
