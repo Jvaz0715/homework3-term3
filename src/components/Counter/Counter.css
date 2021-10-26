@@ -1,0 +1,32 @@
+.counter-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.counter-container h4 {
+   font-size: 32px;
+}
+
+.counter-container button {
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   color: white;
+   font-weight: bold;
+   box-shadow: 1px 1px 1px gray;
+}
+
+.counter-container button:hover {
+   background-color: gray;
+}
+
+.remove-button {
+   margin-right: 15px;
+   background-color: lightcoral;
+}
+
+.add-button {
+   margin-left: 15px;
+   background-color: lightseagreen;
+}
