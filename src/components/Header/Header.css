@@ -1,0 +1,22 @@
+.header {
+   display: flex;
+   align-items: center;
+   background-color: red;
+}
+
+.logo,
+.menu {
+   width: 50%;
+   /* border: 2px solid blue; */
+   color: white;
+}
+
+.logo {
+   margin-left: 10px;
+}
+
+.menu {
+   display: flex;
+   justify-content: end;
+   margin-right: 10px;
+}
